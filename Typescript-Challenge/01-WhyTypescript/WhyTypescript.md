@@ -17,7 +17,7 @@
 
     _/\*\* 하고 엔터_
 
-  - 타입 지정
+  - 타입 지정<br/>
     ![image](https://user-images.githubusercontent.com/44965706/198177084-4e43c8f8-b504-4265-b69c-47d203e86966.png)
   - 콜백에서 응답 값에 객체 내부 데이터 형태가 등장함<br/>
     ![image](https://user-images.githubusercontent.com/44965706/198176574-74377720-3ac0-450e-9e2e-d6118a41e978.png)<br/>
