@@ -6,8 +6,8 @@
 
 > 브라우저가 바로 ts를 읽을 수 없기때문에 `commpile` 과정이 필요하다.
 
-- tsc 명령어 사용하기 위해 코드 작성 후 typescript install
-  ![image](https://user-images.githubusercontent.com/44965706/198180851-c903591d-185f-4550-a7a3-a85111b2259c.png)
+- tsc 명령어 사용하기 위해 코드 작성 후 typescript install<br/>
+  ![image](https://user-images.githubusercontent.com/44965706/198180851-c903591d-185f-4550-a7a3-a85111b2259c.png)<br/>
   ```
   & npm i typescript -g
   ```
@@ -20,7 +20,7 @@
 
 `tsconfig.json`파일 생성 후 key:value 형태로 여러 속성 작성
 
-```
+```javascript
 {
   "compilerOptions": {
     "allowJs": true,

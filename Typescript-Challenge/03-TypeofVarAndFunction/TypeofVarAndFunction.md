@@ -4,7 +4,7 @@
 
 ### 문자열, 숫자, 배열
 
-```
+```javascript
 // JS 문자열 선언
 let jStr = "hello";
 
@@ -22,7 +22,7 @@ let items: number[] = [1, 2, 3];
 
 ### 튜플, 객체, 진위값
 
-```
+```javascript
 // TS 튜플
 let tsAddress: [string, number] = ["강남", 13];
 
@@ -34,7 +34,7 @@ let obj: object = {};
 // };
 // 객체를 조금 더 자세히 작성하고 싶다면 아래처럼
 
-let person: { name: string; age: number } = {
+let person: { name: string, age: number } = {
   name: "중규리",
   age: 24,
 };
@@ -45,7 +45,7 @@ let show: boolean = true;
 
 ### 함수
 
-```
+```javascript
 // 함수의 파라미터와 반환값에 타입을 정의하는 방식
 const sum = (a: number, b: number): number => {
   return a + b;
