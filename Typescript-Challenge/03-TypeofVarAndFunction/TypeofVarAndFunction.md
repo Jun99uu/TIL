@@ -59,3 +59,5 @@ const log = (a: string, b?: string, c?: string): void => {
 log("hello");
 log("hello", "world");
 ```
+
+- 옵셔널 파라미터의 경우, 선택적으로 넣어도 되고 안넣어도 되는 인자에 `?` 붙임
