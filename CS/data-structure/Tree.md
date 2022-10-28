@@ -155,3 +155,7 @@
           if node.right:
               q.append(node.right)
   ```
+
+> 내용 참고 : [윤성우의 열혈 자료구조](http://www.orentec.co.kr/teachlist/DA_ST_1/teach_sub1.php), [[자료구조] 트리 (Tree)](https://velog.io/@kimdukbae/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%ED%8A%B8%EB%A6%AC-Tree), [[자료구조] 트리 (Tree)](https://yoongrammer.tistory.com/68)
+
+> 소스코드 참고 : [[Python] 트리 구현 / 순회(전위 순회, 중위 순회, 후위 순회, 레벨 순회)](https://koosco.tistory.com/109)
