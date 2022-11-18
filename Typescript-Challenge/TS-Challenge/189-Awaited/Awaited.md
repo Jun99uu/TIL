@@ -48,7 +48,7 @@
     ```
     ![image](https://user-images.githubusercontent.com/44965706/202699024-97de380c-973f-456d-b1dd-f20674866689.png)
 
-### 후기
+## 후기
 
 - 이게 어떻게 `easy`인지 모르겠으나,,
 - 타입스크립트의 깊은 개념을 다루는 뿌듯함이 있습니다.
