@@ -7,16 +7,16 @@
 ## 나의 답
 
 ```javascript
-
+type Concat<T extends Array<unknown>, U extends Array<unknown>> = [...T, ...U]
 ```
 
 ## 해설
 
-## 문제 이해
+### 문제 이해
 
 - `javascript`의 배열 관련 API인 **concat**을 직접 구현하는 문제이다
 
-## 구현 계획
+### 구현 계획
 
 - 우선 concat이 뭐하는 놈인가 알아봅시댜
   - `Array.concat(Arr1, Arr2, ...)`일 때, `Arr1`과 `Arr2`등 파라미터로 받은 모든 배열을 합쳐서 새로운 배열을 리턴하는 것
