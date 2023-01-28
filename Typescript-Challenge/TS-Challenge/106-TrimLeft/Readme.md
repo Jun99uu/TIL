@@ -7,7 +7,9 @@
 ## 답
 
 ```typescript
-type LookUp<T, K> = T extends { type: K } ? T : never;
+type TrimLeft<T> = T extends ` ${infer Rest}` | `${infer Rest} `
+  ? TrimLeft<Rest>
+  : T;
 ```
 
 ## 해설
