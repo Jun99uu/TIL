@@ -1,4 +1,4 @@
-# Trim Left
+# Trim
 
 ## 문제
 
