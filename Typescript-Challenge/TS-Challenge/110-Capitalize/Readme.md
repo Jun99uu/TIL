@@ -7,7 +7,9 @@
 ## 답
 
 ```typescript
-
+type CustomCapitalize<T> = T extends `${infer K}${infer R}`
+  ? `${Uppercase<K>}${R}`
+  : never;
 ```
 
 ## 해설
