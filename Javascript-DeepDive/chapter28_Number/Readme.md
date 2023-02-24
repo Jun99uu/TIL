@@ -28,7 +28,7 @@
 
 ### ✅ 생성자 말고 Number를 사용하기
 
-- [명시적 타입 변환]()에서 본 것처럼, `new` 연산자 없이 생성자 함수를 호출하면 숫자를 반환한다.
+- [명시적 타입 변환](https://github.com/likelion-ssu/JS-Deep-Dive/blob/main/JS%20Deep%20Dive%20cheat-sheet/09_%ED%83%80%EC%9E%85%EB%B3%80%ED%99%98%EA%B3%BC-%EB%8B%A8%EC%B6%95%ED%8F%89%EA%B0%80.md#-93-%EB%AA%85%EC%8B%9C%EC%A0%81-%ED%83%80%EC%9E%85-%EB%B3%80%ED%99%98)에서 본 것처럼, `new` 연산자 없이 생성자 함수를 호출하면 숫자를 반환한다.
 - 이를 이용하여 명시적으로 타입을 변환하기도 한다.
 
 ## 📌 28.2 Number 프로퍼티
